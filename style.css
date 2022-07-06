@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background:#C4DFAA;
+    height: 80px;
+    width: 100%;
+  }
+  .logo{
+  margin: 12px;
+  border-radius: 100%;
+  }
+  .class {
+    background: #C4DFAA;
+    height: 130px;
+    width: 100%;
+    padding-top: 20px; 
+    text-align: center;
+    padding-top: 20px;
+  }
+  #head {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    margin-top: 0px;
+    font-size: 3rem;
+    color: green;
+}
+H1{
+  text-align: center;
+  font-size: 1.5rem;
+  color: green;
+  
+}
+.image-4 {
+  border: inset 8px;
+  border-color:green;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  margin-top: 0px;
+  display: block;
+}
+#p1 {
+  color: black;
+  text-align: center;
+  font-size: medium;
+}
+#p2 {
+  color: black;
+  text-align: center;
+  font-size: medium;
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+h2 {
+  color: green;
+  text-align: center;
+}
+#What {
+  text-align: center;
+  color: green;
+  font-size: 2.5rem;
+}
+#HMM {
+  text-align: center;
+  color: green;
+  font-size: 2.3rem;
+}
+.image-5 {
+  border: inset 8px;
+  border-color:green;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+}
+.image-6 {
+  border: inset 8px;
+  border-color:green;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#message {
+  height: 40px;
+  width: 200px;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  display: block;
+  border-radius: 15px;
+  
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: rgb(54, 1, 1);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: rgb(82, 3, 3);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+  section{
+    background-color: #E4DCCF;
+padding-top: 20px;
+padding-bottom: 20px;
+  }
+  footer {
+    background-color:#898AA6 ;
+    text-align: center;
+    padding: 15px 0 15px;
+    line-height: 35px;
+  }
+  footer div li {
+    list-style: none;
+    display: inline;
+    justify-content: center;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  footer div li a {
+    color: rgb(148, 9, 9);
+    font-weight: bold;
+  }
